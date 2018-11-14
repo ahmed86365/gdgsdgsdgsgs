@@ -11,7 +11,7 @@ client.on('ready', () => {
    console.log(`Loadinng.`);
    console.log(`Loadinng..`);
    console.log(`Loadinng...`);
-   console.log(`This Bots Online ' `);
+   console.log(`This Bots Onli' `);
    console.log(`----------------`);
 });
 
