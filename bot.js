@@ -24,7 +24,7 @@ client.user.setActivity(argresult, {type:'LISTENING'});
 } else 
 
 if (message.content.startsWith(prefix + 's')) {
-  client.user.setGame(argresult, "https://www.twitch.tv/Justin-Ly0001");
+  client.user.setGame(argresult, "https://www.twitch.tv/OvErDz1");
     message.channel.sendMessage(`**:white_check_mark:  : ${argresult}**`)
 }
 
@@ -34,4 +34,4 @@ if (message.content.startsWith(prefix + 's')) {
 
 
 
-client.login(process.env.TOKEN);
+client.login(process.env.BOT_TOKEN);
