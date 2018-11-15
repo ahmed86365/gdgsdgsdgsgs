@@ -2,7 +2,6 @@ const Discord = require("discord.js");
 const client = new Discord.Client();
 
 const prefix = "$"
-client.login(discord_token);
 client.on('message', message => {
   if (!message.content.startsWith(prefix)) return;
   var args = message.content.split(' ').slice(1);
