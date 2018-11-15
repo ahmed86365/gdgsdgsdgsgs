@@ -1,5 +1,6 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
+
 const prefix = "$"
 client.login(discord_token);
 client.on('message', message => {
@@ -33,4 +34,4 @@ if (message.content.startsWith(prefix + 's')) {
 
 
 
-client.login(process.env.TOKEN);// لا تغير فيها شيء
+client.login(process.env.TOKEN);
